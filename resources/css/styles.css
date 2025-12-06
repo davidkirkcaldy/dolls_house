@@ -1,3 +1,12 @@
+
+/*
+ *   Copyright (c) 2025 David Kirkcaldy
+ *   All rights reserved.
+ */
+html {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+} 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f7f3e9;
@@ -81,7 +90,7 @@ nav ul li a:hover, nav ul li a.active {
     font-size: 2.5rem;
     color: #6d4c41;
 }
-#rooms, #furniture {
+#rooms, #furniture, #build-progression {
     margin: 2rem auto;
     max-width: 900px;
     background: #fff;
@@ -89,6 +98,45 @@ nav ul li a:hover, nav ul li a.active {
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 2rem;
 }
+
+#build-header {
+    background: #b3c6e7;
+    padding: 2rem 0;
+    text-align: center;
+}
+#build-header h1 {
+    font-size: 2.2rem;
+    color: #2d3a4b;
+}
+
+#build-progression {
+    margin: 2rem auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+}
+/*
+        .progress-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .progress-gallery img {
+            width: 200px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        }
+        .caption {
+            text-align: center;
+            font-size: 1rem;
+            color: #555;
+            margin-top: 0.5rem;
+        }
+*/
 /* .gallery {
     display: flex;
     flex-wrap: wrap;

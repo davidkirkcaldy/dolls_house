@@ -4,60 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House Build Progression</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background: #f7f3e9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #b3c6e7;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.2rem;
-            color: #2d3a4b;
-        }
-        section {
-            margin: 2rem auto;
-            max-width: 900px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-            padding: 2rem;
-        }
-        h2 {
-            color: #3b5998;
-            margin-bottom: 1rem;
-        }
-        .progress-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-        }
-        .progress-gallery img {
-            width: 200px;
-            height: 140px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-        }
-        .caption {
-            text-align: center;
-            font-size: 1rem;
-            color: #555;
-            margin-top: 0.5rem;
-        }
-    </style>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
+
 </head>
 <body>
     <header>
-        <h1>House Build Progression</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#rooms">Rooms</a></li>
+                <li><a href="index.html#furniture">Furniture</a></li>
+                <li><a href="progression.html" class="active">The Build</a></li>
+                <li><a href="tools_materials.html" >Tools & Materials</a></li>
+            </ul>
+        </nav>
     </header>
+    <section id="build-header">
+        <h1>House Build Progression</h1>
     <section>
         <h2>Stages of the Build</h2>
+        <p style="max-width:700px; margin: 0 auto 2rem auto; color:#3b5998; font-size:1.1rem;">
+            The doll's house was constructed from a detailed kit, providing all the essential wooden parts for assembly. Once the main structure was built, the ceilings were carefully painted to create a bright and clean look. Various floor coverings were then added to each room, including miniature carpets, tiles, and wooden flooring, to give every space its own character. Finally, the walls were decorated with patterned papers, adding warmth and personality to the interior and making each room unique.
+        </p>
+        <div class="progress-gallery">
         <div class="progress-gallery">
             <div>
                 <img src="resources/images/build/parts_delivered.jpeg" alt="Foundation">
