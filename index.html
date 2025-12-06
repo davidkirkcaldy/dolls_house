@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll's House</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f3e9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            /* background-color: black; */
+            margin-top: 0;
+            position: fixed;
+            border-bottom: 1px solid seashell;
+            width: 100%;
+            height: auto;
+            z-index: 10;
+        }
+        nav {
+            background: #8d6e63;
+            padding: 0.5rem 0;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 0.3rem 0.8rem;
+            border-radius: 5px;
+            transition: background 0.2s;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            background: #d7ccc8;
+            color: #6d4c41;
+        }
+        #introduction {
+            background: #d8b4a6;
+            padding: 2rem 0;
+        }
+        .intro-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .intro-image {
+            flex: 0 0 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .intro-image img {
+            max-width: 300px;
+            width: 100%;
+        }
+        .intro-text {
+            flex: 1 1 320px;
+            min-width: 260px;
+            color: #6d4c41;
+        }
+        .intro-text h2 {
+            margin-top: 0;
+            font-size: 2rem;
+            color: #6d4c41;
+        }
+        #introduction h1 {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 2.5rem;
+            color: #6d4c41;
+        }
+        #rooms, #furniture {
+            margin: 2rem auto;
+            max-width: 900px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#furniture">Furniture</a></li>
+                <li><a href="progression.html">The Build</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="introduction">
+        <h1>Welcome to the Doll's House</h1>
+        <div class="intro-flex">
+            <div class="intro-image">
+                <img src="resources/images/house_front.png" alt="Doll's House Front">
+            </div>
+            <div class="intro-text">
+                <h2>Discover a Miniature World</h2>
+                <p>
+                    Step inside a lovingly crafted doll's house, where every room tells a story and every piece of furniture is made with care. Explore the unique rooms, admire the detailed furnishings, and follow the journey of building this miniature home from the ground up. Whether you're a collector, a maker, or simply curious, there's something magical waiting in every corner.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="rooms">
+        <h2>Rooms of the House</h2>
+        <div class="gallery">
+            <img src="resources/images/rooms/sitting_room.jpeg" alt="Living Room">
+            <img src="resources/images/rooms/kitchen.jpeg" alt="Kitchen">
+            <img src="resources/images/rooms/bedroom.jpeg" alt="Bedroom">
+            <img src="resources/images/rooms/bathroom.jpeg" alt="Bathroom">
+            <img src="resources/images/rooms/entrance_hall.jpeg" alt="Entrance Hall">
+        </div>
+    </section>
+    <section id="furniture">
+        <h2>Furniture</h2>
+        <div class="gallery">
+            <img src="resources/images/furniture/sofa.jpeg" alt="Sofa">
+            <img src="resources/images/furniture/dining_table.jpeg" alt="Table">
+            <img src="resources/images/furniture/study_unit.jpeg" alt="study unit">
+            <img src="resources/images/furniture/desk.jpeg" alt="desk">
+        </div>
+    </section>
+</body>
+</html>
