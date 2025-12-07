@@ -3,6 +3,10 @@
  *   Copyright (c) 2025 David Kirkcaldy
  *   All rights reserved.
  */
+ img {
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
 html {
     font-size: 16px;
     font-family: Helvetica, sans-serif;
