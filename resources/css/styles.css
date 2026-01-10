@@ -17,6 +17,10 @@ body {
     margin: 0;
     padding: 0;
 }
+h1 {
+    font-size: 2.2rem;
+    color: #6d4c41;
+}
 h2 {
     font-size: 1.8rem;
 }
@@ -61,6 +65,19 @@ nav ul li a:hover, nav ul li a.active {
     background: #d7ccc8;
     color: #6d4c41;
 }
+
+.icon {
+    vertical-align: middle;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+}
+nav ul li a .desktop {
+    margin-left: 0.5rem;
+}
+
 #introduction {
     background: #d8b4a6;
     padding: 2rem 0;
@@ -110,11 +127,14 @@ nav ul li a:hover, nav ul li a.active {
 }
 
 #build-header {
+    top: 100px;
+    margin-top: 2rem;
     background: #b3c6e7;
     padding: 2rem 0;
     text-align: center;
 }
 #build-header h1 {
+    margin: 2rem auto;
     font-size: 2.2rem;
     color: #2d3a4b;
 }
@@ -230,4 +250,30 @@ nav ul li a:hover, nav ul li a.active {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+}
+
+/* make .desktop class hidden on small screens */
+@media (max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+}
+
+/* Tools and Materials Section */
+.tools-section {
+    margin: 2rem auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+}
+.tools-list, .materials-list {
+    margin-bottom: 2rem;
+}
+.tools-list ul, .materials-list ul {
+    padding-left: 1.5rem;
+}
+.tools-list h2, .materials-list h2 {
+    color: #6d4c41;
 }

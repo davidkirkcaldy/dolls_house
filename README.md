@@ -23,7 +23,7 @@ This project documents the creation of a doll's house. The current pages being w
 ## Using the Website
 
 The run this site locally, simple load the index.html file in your preferred web browser. Alternatively, it is hosted on GitHub at
-[Doll's House on GitHub]: <https://davidkirkcaldy.github.io/dollshouse/>
+[Doll's House on GitHub](https://davidkirkcaldy.github.io/dolls_house/)
 
 ## To be completed
 
