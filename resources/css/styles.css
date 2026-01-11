@@ -105,6 +105,7 @@ nav ul li a .desktop {
     flex: 1 1 320px;
     min-width: 260px;
     color: #6d4c41;
+    padding: 2rem;
 }
 .intro-text h2 {
     margin-top: 0;
@@ -268,12 +269,18 @@ nav ul li a .desktop {
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 2rem;
 }
-.tools-list, .materials-list {
+.tools-materials-list {
     margin-bottom: 2rem;
 }
-.tools-list ul, .materials-list ul {
+.tools-materials-list ul {
     padding-left: 1.5rem;
+    margin: 5px 0 15px 0;
 }
-.tools-list h2, .materials-list h2 {
+
+.tools-materials-list ul li {
+    margin: 5px 0 5px 0;
+}
+
+.tools-materials-list h2 {
     color: #6d4c41;
 }
